@@ -1,0 +1,4 @@
+namespace sysapi
+{
+    void CreateWindow();
+}
