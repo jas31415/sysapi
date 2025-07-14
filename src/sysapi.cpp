@@ -1,17 +1,3 @@
-/*
-for more info on this ifdef stuff check out
-https://blog.kowalczyk.info/article/j/guide-to-predefined-macros-in-c-compilers-gcc-clang-msvc-etc..html
-*/
-#ifdef __WIN64
-#   include <windows.h>
-#endif
-#ifdef __linux__
-#   include <X11/Xlib.h>
-#   include <assert.h>
-#   include <unistd.h>
-#   define NIL (0)
-#endif
-
 #include "sysapi.h"
 
 void sysapi::CreateWindow()
