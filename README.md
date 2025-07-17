@@ -1,3 +1,3 @@
-Another pet project of mine. I'm trying to figure out how to work with win32 and some common linux driver apis. Just for the funsies! =]
+Another pet project of mine. I'm gonna be making an abstraction layer between OS syscalls that is supposed to be compatible both windows and linux systems. =]
 
-Current plans involve launching a window with win32, and after that figuring out what I wanna use as primary linux windowing api.
+If this rounds up, maybe I will attempt to integrate some more library specific api's for windowing like X11 and win32, or perhaps try making my own first.
