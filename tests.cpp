@@ -1,9 +1,6 @@
-#include "sysapi.h"
-
-#include <cstdio>
+// #include "sysapi.h"
 
 int main()
 {
-    sysapi::CreateWindow();
-    return 0;
+    
 }
