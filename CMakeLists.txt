@@ -14,7 +14,7 @@ include_directories(include/)
 # libsysapi binaries
 set(LIB_NAME ${PROJECT_NAME})
 add_library(${LIB_NAME} STATIC
-src/sysapi.cpp
+    src/sysapi.cpp
 )
 # linking libbies specifically to only libsysapi to avoid confusion later
 # to do: make cross compatible
