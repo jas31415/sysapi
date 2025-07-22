@@ -9,7 +9,7 @@ set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 find_package(X11 REQUIRED)
 
 # includes for all!
-include_directories(includes/)
+# include_directories(include/)
 
 # libsysapi binaries
 set(LIB_NAME ${PROJECT_NAME})
@@ -18,7 +18,7 @@ src/sysapi.cpp
 )
 # linking libbies specifically to only libsysapi to avoid confusion later
 # to do: make cross compatible
-target_link_libraries(${LIB_NAME} ${X11_LIBRARIES})
+# target_link_libraries(${LIB_NAME} ${X11_LIBRARIES})
 
 # tester program executable
 set(EXE_NAME ${PROJECT_NAME}-tester)
