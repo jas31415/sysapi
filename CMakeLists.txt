@@ -6,10 +6,10 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 set(CMAKE_ARCHIVE_OUTPUT_DIRECTORY ${CMAKE_SOURCE_DIR}/bin)
 
 # finding da packs (to do: make cross compatible)
-find_package(X11 REQUIRED)
+# find_package(X11 REQUIRED)
 
 # includes for all!
-# include_directories(include/)
+include_directories(include/)
 
 # libsysapi binaries
 set(LIB_NAME ${PROJECT_NAME})
